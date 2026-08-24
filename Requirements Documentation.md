@@ -76,19 +76,19 @@ React web app that read/write from database to store user settings.
 ### 5.1 Interactable Scene
 **Priority:** HIGH
 **Description:** The web app needs to host a scene which supports SVG generation and movement. Users must be able to cursor lasso elements, drag groups and de-select items. 
-![Scene Mock](Scene%20Mock.svg)
+![Scene Mock](readme%20assets/Scene%20Mock.svg)
 **Functional Requirements:**
 ### 5.2 Tables with Live Set Membership
 **Priority:** HIGH
 **Description:** There should be tables in close proximity to the scene which provides a listed representation of the diagram. These tables should be updated when elements are moved, begin movement and end movement.  
 **Functional Requirements:**
-![Scene Mock Table](Scene%20Mock%20Table.svg)
+![Scene Mock Table](readme%20assets/Scene%20Mock%20Table.svg)
 
 ### 5.3 Adhoc Table generation for Set intersection and shared points
 **Priority:** MEDIUM
 **Description:** 
 
-![Scene Mock Adhoc Table](Scene%20Mock%20Adhoc%20Table.svg)
+![Scene Mock Adhoc Table](readme%20assets/Scene%20Mock%20Adhoc%20Table.svg)
 
 ### 5.4 Data Manipulation via table & dragging elements
 **Priority:** MEDIUM
