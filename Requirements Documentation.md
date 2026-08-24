@@ -3,6 +3,7 @@ Revision History
 | Name                                      | Date       | Reason for Changes | Version |
 | ----------------------------------------- | ---------- | ------------------ | ------- |
 | First Draft of Requirements Documentation | 08/24/2026 | Initial Draft      | 1       |
+
 Table of Contents
 1. Overview
 2. Organization Requirements
@@ -86,7 +87,7 @@ React web app that read/write from database to store user settings.
 
 ### 5.3 Adhoc Table generation for Set intersection and shared points
 **Priority:** MEDIUM
-**Description:** 
+**Description:** Create new table containing shared points whenever set intersection is detected. This table is then discarded when intersection is not longer detected.  
 
 ![Scene Mock Adhoc Table](readme%20assets/Scene%20Mock%20Adhoc%20Table.svg)
 
@@ -98,6 +99,9 @@ React web app that read/write from database to store user settings.
 ### List of Features
 1. Buttons to create new set/points
 2. Scene zooming
+	1. Look into svg.panzoom.js
+	2. Scene container
+	3. Viewbox
 3. Scene bounds restriction
 4. Update DB on save
 5. Autosave feature
