@@ -94,3 +94,27 @@ React web app that read/write from database to store user settings.
 **Priority:** MEDIUM
 **Description:** The diagram should update when user selects and drags elements. The diagram should also redraw points if user modifies i.e point A to belong to Set 2 in the table.
 
+
+### List of Features
+1. Buttons to create new set/points
+2. Scene zooming
+3. Scene bounds restriction
+4. Update DB on save
+5. Autosave feature
+6. Undo action function
+7. Redo action function
+8. Shift + Click deselection
+9. Maybe?? Elements in table is highlighted according to lasso selection?
+
+### MODEL - VIEW - CONTROLLER
+
+
+
+## Database Management System
+---
+Choice: PostgreSQL
+Rational: PostgreSQL fully supports SQL and noSQL. Financial tooling greatly benefits from the precision of rigid, relational tables for fields like transactions, balances, core user account ledgers. PostgreSQL's JSONB data type allows for noSQL flexibility for matters like user settings and configuration.
+MVP Stage: PostgreSQL 18 (LTS) on LXC 
+Forward Planning: 
+- PostgreSQL data can be migrated to the a containerized PostgreSQL server on KVM
+- PostgreSQL can be migrated to k3s via CloudNativePG
